@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <h1 id="mainHead">
+            Rock-Paper-Scissors
+        </h1>
+        <div id="game_alog">
+            <img src="game_algo.png">
+        </div>
+        <div id="select">
+            <h3>Rock , Paper , Scissors , Shoot!</h3>
+            <hr>
+            <p id="choosing">Choose Your Move</p>
+            <div id="allImages">
+                <img class="image" src="rock.png" id="rock">
+                <img class="image" src="paper.png" id="paper">
+                <img class="image" src="scissors.png" id="scissors">
+            </div>
+        </div>
+        <hr>
+        <div id="choices">
+            <div class="show"  id="your_choices_outer">
+                <div id="your_choice">
+                </div>
+                <p id="your_choice_para"></p>
+            </div>
+            <div class="show"  id="com_choices_outer">
+                <div id="com_choice">
+                </div>
+                <p id="com_choice_para"></p>
+            </div>
+        </div>
+        <p id="result"></p>
+        <div id="score">
+            <table border="4" id="score_table">
+                <tr>
+                    <th colspan="2">Score</th>
+                </tr>
+                <tr>
+                    <td>You</td>
+                    <td>Com</td>
+                </tr>
+                <tr>
+                    <td id="your_score">0</td>
+                    <td id="com_score">0</td>
+                </tr>
+            </table>
+        </div>
+        <br><br><br>
+        <button id="reset">Reset Game</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+#mainHead{
+    color:Black;
+    background-color:grey;
+    text-align:center;
+}
+#main{
+    text-align:center;
+}
+img{
+    height:300px;
+    width:400px;
+}
+.new_images,.image{
+    height:200px;
+    width:200px;
+    display:inline-block;
+    border-radius:50%;
+    margin-left:20px;
+}
+.image:hover{ 
+    outline:5px solid black; /* Because if we use border -->  when the border appears, the element becomes bigger by 10px (5px on each side). The browser has to recalculate the layout, causing the page to "jump" or "shake".*/
+    /* on the other hand outline just outline does not affect the element's size, so the page won't reflow , outline does not change the element dimes=nsions it just poaints the boundary of the element instead of adding boundary like border does*/
+    cursor:pointer;
+}
+.show{
+    display:inline-block;
+}
+#score{
+    display:inline-block;
+}
+#score_table{
+    height:200px;
+    width:200px;
+}
+td,th{
+    text-align:center;
+}
+#result{
+    font-family:cursive;
+    font-size:20px;
+}
+button{
+    font-size:20px;
+}
+#choosing{
+    font-size:20px;
+}
+#reset{
+    cursor:pointer;
+}
+#reset:hover{
+    transform:scale(1.05);
+}
