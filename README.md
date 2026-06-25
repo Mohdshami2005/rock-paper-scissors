@@ -22,4 +22,4 @@ The player chooses between Rock, Paper, and Scissors, while the computer randoml
 <li>Same choices result in a draw</li>
 </ul>
 
-<h1>Live Demo Link <h1>:- https://mohdshami2005.github.io/rock-paper-scissors/
+#Live Demo Link :- https://mohdshami2005.github.io/rock-paper-scissors/
